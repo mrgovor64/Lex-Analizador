@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="js/class.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background: #aaa;
+      }
+      .body {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      .textarea {
+        width: 100%;
+      }
+      .button {
+
+      }
+      .content {
+        border: 1px black solid;
+        font-family: monospace;
+        width: 100%;
+        background: #fff;
+        padding: 10px;
+      }
+      .tests {
+        border: 1px black solid;
+        font-family: monospace;
+        width: 100%;
+        background: #fff;
+        padding: 10px;
+      }
+    </style>
+
+    <div class="body">
+      <textarea class="textarea" cols="30" rows="10">const num = 23.4</textarea>
+      <br><br>
+      <button class="button" type="button" name="button">Разобрать</button>
+      <br><br>
+      <pre class="content"></pre>
+
+      <br><br>
+      <div>Тесты</div>
+      <pre class="tests"></pre>
+    </div>
+
+  </body>
+</html>
